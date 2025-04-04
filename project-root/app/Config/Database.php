@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'username'     => 'root',
+        'password'     => null,
+        'database'     => 'tp3_librairie',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -50,6 +50,7 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+
 
     //    /**
     //     * Sample database connection for SQLite3.
