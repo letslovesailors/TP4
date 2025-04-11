@@ -9,9 +9,9 @@
     <h1>Login</h1>
     <form method="POST" action ="Login"></form>
         <label for="matricule">Login :</label>
-        <input type="text", name="Matricule abonné" placeholder="Matricule" required><br>
-        <label for="nom abonné">Abonné :</label>
-        <input type="text", name = "Nom abonné" placeholder="Nom abonnée" required> <br>
+        <input type="text"><br>
+        <label for="nom abonné">Password :</label>
+        <input type="text", name = "Nom abonné" placeholder="Nom" required> <br>
         <button>Se connecter</button>
     <style>
         form {
