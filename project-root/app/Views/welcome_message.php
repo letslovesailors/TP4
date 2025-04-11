@@ -30,11 +30,9 @@
             <div class="service-list">
                 <div class="service-item">
                     <h3>Prêt de livres</h3>
-                    <p>Empruntez vos livres préférés pour une durée déterminée.</p>
                 </div>
                 <div class="service-item">
                     <h3>Accès numérique</h3>
-                    <p>Accédez à des milliers de ressources en ligne, y compris des e-books et des articles.</p>
                 </div>
             </div>
         </div>
