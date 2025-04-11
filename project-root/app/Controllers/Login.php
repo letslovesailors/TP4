@@ -8,8 +8,8 @@ class Login extends BaseController{
     }
     public function attemptLogin()
     {
-        $userModel = new \App\Models\UserModel();
-        $userFetched = $userModel ->where('matricule_abonne', $this->request->getPost('login'))->first();
+        $userModel = new \App\Models\userModel();
+        $userFetched = $userModel ->where('matricule_abonne', $this->reques->getPost('login'))->first();
         if ($userFetched && $this->request->getPost('password') === $userFetched['nom_abonne']) {
             return "Login OK";
         }
