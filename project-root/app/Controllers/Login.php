@@ -1,8 +1,8 @@
 <?php
-use App\Controllers\BaseController;
-
-class LoginController extends BaseController{
-    public function indexe(): string
+namespace App\Controllers;
+use CodeIgniter\Controller;
+class Login extends BaseController{
+    public function index(): string
     {
         return view('login');
     }

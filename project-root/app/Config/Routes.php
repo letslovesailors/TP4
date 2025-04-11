@@ -7,4 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/login', 'LoginController::indexe');
+$routes->get('/login', 'Login::index');
+
