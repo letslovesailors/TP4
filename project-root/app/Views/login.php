@@ -11,8 +11,8 @@
         <label for="matricule">Login :</label>
         <input type="text"><br>
         <label for="nom abonné">Password :</label>
-        <input type="text", name = "Nom abonné" placeholder="Nom" required> <br>
-        <button>Se connecter</button>
+        <input type="text", name = "Nom abonné" placeholder="Nom" required > <br>
+        <button value ="submit">Se connecter</button>
     <style>
         form {
             text-align: center;
