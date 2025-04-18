@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 <!-- application/views/admin/dashboard.php -->
+=======
+<?php
+// filepath: /home/letslove/Documents/TP4/project-root/app/Views/admin.php
+>>>>>>> 8161708 (w)
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Projet bibliothèque - Administration</title>
     <style>
         /* Mise en page de base */
@@ -53,5 +59,12 @@
             <?php endif; ?>
         </div>
     </div>
+=======
+    <title>Interface Administrateur</title>
+</head>
+<body>
+    <h1>Bienvenue sur l'interface administrateur</h1>
+    <p>Utilisez le menu pour naviguer entre les fonctionnalités.</p>
+>>>>>>> 8161708 (w)
 </body>
 </html>
