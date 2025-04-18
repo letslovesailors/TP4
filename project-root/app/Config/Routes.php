@@ -8,4 +8,10 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/login', 'Login::index');
-$routes->POST('/login', 'Login::attemptLogin');
+$routes->post('/login', 'Login::attemptLogin'); // Corrigé : "POST" devient "post"
+
+
+
+$routes->get('/admin', 'page_admin::index'); // Ajout de la route pour l'interface admin
+
+?>
