@@ -25,11 +25,11 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN'          => '',
-        'hostname'     => 'localhost',
+        'DSN'          => null, // Set to null to avoid processing an empty string
+        'hostname'     => '127.0.0.1',
         'username'     => 'root',
-        'password'     => null,
-        'database'     => 'tp3_librairie',
+        'password'     => '', // Use an empty string if no password is set
+        'database'     => 'tp3_librairie', // Ensure this matches your database name
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
