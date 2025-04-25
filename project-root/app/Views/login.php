@@ -10,10 +10,10 @@
 <body>
     <h1>Login</h1>
     <form method="POST" action="login">
-        <label for="matricule">Login :</label>
-        <input type="text"><br>
-        <label for="nom abonné">Password :</label>
-        <input type="text" , name="Nom abonné" placeholder="Nom" required> <br>
+        <label for="login">Login :</label>
+        <input type="text" name="login"><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" placeholder="Nom" required> <br>
         <button value="submit">Se connecter</button>
     </form>
     <style>
