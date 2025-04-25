@@ -25,7 +25,6 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN'          => null, // Set to null to avoid processing an empty string
         'hostname'     => '127.0.0.1',
         'username'     => 'root',
         'password'     => '', // Use an empty string if no password is set
