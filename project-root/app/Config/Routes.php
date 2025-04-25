@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/login', 'Login::index');
+$routes->POST('/login', 'Login::attemptLogin');
+$routes->get('/admin', 'page_admin::index');
 $routes->post('/login', 'Login::attemptLogin'); // Corrigé : "POST" devient "post"
 
 
