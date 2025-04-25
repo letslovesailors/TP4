@@ -8,5 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/login', 'Login::index');
-$routes->POST('/login', 'Login::attemptLogin');
+$routes->POST('/login/', 'Login::attemptLogin');
 ?>
