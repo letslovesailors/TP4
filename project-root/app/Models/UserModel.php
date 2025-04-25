@@ -3,9 +3,9 @@ namespace App\Models;
 
 class UserModel extends \CodeIgniter\Model
 {
-    protected $table = 'abonne ';
-    protected $primaryKey = 'matricule_abonne';
-    protected $allowedFields = ['matricule_abonne', 'nom_abonne'];
-    protected $returnType = 'array';
+    public $table = 'abonne ';
+    public $primaryKey = 'matricule_abonne';
+    public $allowedFields = ['matricule_abonne','CSP_abonne'];
+    public $returnType = 'array';
 }
 ?>
