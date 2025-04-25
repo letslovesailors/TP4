@@ -8,6 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('/login', 'Login::index');
-$routes->post('/login', 'Login::attemptLogin');
-$routes->get('/abonne', 'Page_abonne::index');
-$routes->get('/admin', 'page_admin::index');
+$routes->POST('/login/', 'Login::attemptLogin');
+?>
