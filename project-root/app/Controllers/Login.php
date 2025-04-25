@@ -10,11 +10,10 @@ class Login extends BaseController{
     {
         $userModel = new \App\Models\UserModel();
         $userFetched = $userModel ->where('matricule_abonne', $this->request->getPost('login'))->first();
-        if ($userFetched && $this->request->getPost('password') === $userFetched['CSP_abonne']) {
-            return "Login OK";
-        }
-        else {
-            return "Login KO";
+    if ($userFetched && $this->request->getPost('password') === $userFetched['CSP_abonne']) {
+        return "Login OK";
+    } else {
+        return "Login KO";
     }
     }    
 }
